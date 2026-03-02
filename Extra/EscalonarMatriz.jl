@@ -28,7 +28,7 @@ println("\n Escriba su matriz (números con espacios).")
 println(" Presione ENTER en una línea vacía para procesar:")
 
 while true
-    print(" > ")
+    print("\n > ")
     entrada = readline()
     if isempty(strip(entrada))
         break
